@@ -1,0 +1,25 @@
+{{define "page"}}
+
+<!doctype html>
+<html>
+{{template "head" .Content}}
+
+<body>
+  {{template "global-nav" .}}
+  
+  <div id="partnerships">
+    <div id="maininfo">
+      <div class="pagebox">
+        <div class="table">
+          {{template "partner_explanation" .Content}}
+          {{template "partner_action" .Content}}
+        </div>
+      </div>
+    </div>
+  </div>
+
+  {{template "footer" .}}
+
+</body>
+</html>
+{{end}}

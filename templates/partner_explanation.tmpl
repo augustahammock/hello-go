@@ -1,0 +1,24 @@
+{{define "partner_explanation"}}
+<div id="explanation" class="left">
+  
+  <div class="whats-partnerships">
+    <h1>{{.partner_heading}}</h1>
+    <p>{{.partner_description}}</p>
+  </div>
+
+  <div class="whats-premium">
+    <p class="whats-premium-headline">{{.partner_premium_heading}}</p>
+    <ul class="whats-premium-list">
+      {{ range $key, $value := .partner_premium_benefits }}
+         <li>{{ $value }}</li>
+      {{ end }}
+    </ul>
+  </div>
+
+  <div class="whos-partner">
+    <p class="whos-partner-message">{{.partner_logo_heading}}</p>
+    <img src="https://storage.googleapis.com/augustas-static-assets/cdn/development/evernote-sandbox{{.partner_logo_img}}" class="partner-logo">
+  </div>
+
+</div>
+{{end}}

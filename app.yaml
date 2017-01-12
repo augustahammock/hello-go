@@ -1,4 +1,4 @@
-application: helloworld
+application: storage-project-151921
 version: 1
 runtime: go
 api_version: go1

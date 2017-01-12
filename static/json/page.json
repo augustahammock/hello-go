@@ -1,4 +1,39 @@
 {
-  "title": "Awesome Page",
-  "description": "This is the coolest page ever!"
+  "header_data": {
+    "show_header": "",
+    "show_header_signin": "false",
+    "show_header_pricing": "false",
+    "show_header_hamburger": "false",
+  },
+  "footer_data": {
+    "show_footer": "false"
+  },
+  "meta": {
+    "description": "",
+    "og_img": ""
+  },
+  "page_css": "/css/partners/main.css",
+  "page_title": "Redeem your 3 free months of Premium",
+  "partner_heading": "Redeem your 3 free months of Premium",
+  "partner_description": "Evernote Premium unites writing, collection, discussion, and presentation in a single workspace. Instead of jumping between apps, keep focus in one place and your best work will follow.",
+  "partner_premium_heading": "Get more with Premium:",
+  "partner_premium_benefits": [
+      "10 GB of new uploads each month",
+      "Access notes when you're offline",
+      "Search in Office docs & attachments",
+      "Turn notes into presentations",
+      "Clip from anywhere on the web",
+      "Annotate attached PDFs",
+      "Save emails into Evernote"
+  ],
+  "partner_logo_heading": "Brought to you by Evernote + Zagg",
+  "partner_logo_img": "/img/partners/logo-zagg.png",
+  "partner_action_img": "/img/partners/promotion-card.png",
+  "partner_promo_cta_text": "Continue",
+  "partner_promo_prompt": "Enter your activation code below:",
+  "partner_promo_invalid_error": "The code you entered is invalid. Please check your code and try again.",
+  "partner_promo_required_error": "This field is required.",
+  "partner_promo_success_heading": "Congratulations! You entered a valid code.",
+  "partner_promo_success_instructions": "Please enter your email below and you will either be redirected to sign in to an existing Evernote account or to create a new one.",
+  "partner_promo_email_placeholder": "Email address",
 }

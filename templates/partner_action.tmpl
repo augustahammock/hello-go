@@ -1,0 +1,41 @@
+{{define "partner_action"}}
+<div id="action" class="right">
+
+  <div class="partner-image">
+    <img src="https://storage.googleapis.com/augustas-static-assets/cdn/development/evernote-sandbox{{.partner_action_img}}" class="logo">
+  </div>
+
+  <div class="call-to-action">
+    <div class="code-redemption">
+      
+          <p class="cta-message">{{.partner_promo_prompt}}</p>
+        <div class="premiumcodes_inputs" id="premiumcodes_inputs">
+        <div class="codes mobile field-item">
+          <input name="s5" class="js-promo-code" type="text" maxlength="23" placeholder="xxxxx-xxxxx-xxxxx-xxxxx" value="">
+        </div>
+        <div class="field-item submit">
+          <input type="button" value="{{.partner_promo_cta_text}}" id="premiumcodes_validate" class="js-submit-code">
+        </div>
+        <p class="error">{{.partner_promo_invalid_error}}</p>
+      </div>
+
+      <form name="email" novalidate="novalidate">
+        <div class="success">
+          <p>{{.partner_promo_success_heading}}</p>
+          <p>{{.partner_promo_success_instructions}}</p>
+          <div class="holder">
+            <div class="field-item email">
+              <input type="email" data-validate="required, email" placeholder="{{.partner_promo_email_placeholder}}" id="emailField" aria-required="true" aria-describedby="emailField-email-error">
+            <span class="error-message required" id="emailField-required-error" role="alert">{{.partner_promo_required_error}}</span><span class="error-message email" id="emailField-email-error" role="alert">A valid email address is required.</span></div>
+            <div class="field-item submit">
+              <input type="submit" class="js-submit-email" value="Enter">
+            </div>
+          </div>
+        </div>
+      </form>
+
+    </div>
+  </div>
+
+</div>
+{{end}}
